@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": 0,
+    "global-require": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack/webpack.dev.config"
+      }
+    }
+  },
+  "globals": {
+    "log": false,
+    "__DEV__": true,
+    "__LOG_LEVEL__": true,
+    "__VERSION__": false,
+    "__API_ROOT__": false
+  }
+}

@@ -1,0 +1,7 @@
+web:
+  image: registry.digitwalk.com/pra2:dist
+  ports:
+    - "3001:80"
+  environment:
+    - VIRTUAL_HOST=pra2.example.com
+  restart: always
