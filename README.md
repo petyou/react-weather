@@ -1,4 +1,3 @@
-pra2
 =====================
 
 A *new* Webpack boilerplate with:
